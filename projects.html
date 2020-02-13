@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="staticFiles/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body class="body">
@@ -16,7 +18,7 @@
         </div>
 
         <div class="navbar-PageTitle col-sm-4 text-center">
-            <h2 id="titleId">Projects</h2>
+            <span id="titleId">Projects</h2>
         </div>
 
         <div class="navbar-nav-scroll col-sm-4">
@@ -46,56 +48,52 @@
         </div>
     </div>
 
-    <div class="container-fluid no-padding" id="projectContainer">
-        <div class="row">
-            <div class="col-sm text-center">
-                <span class="projectTitle">Sweepstakes</span>
+    <div class="container-fluid content-row" id="projectContainer">
+        <div class="cardContainer">
+            <div class="card border-dark rounded">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sweepstakes</h5>
+                    <p class="card-text" id="projectDescription">A project which focuses on implenting various design
+                        patterns such as factory and observer. The project also uses dependency injection to allow
+                        end-users to implement the functionality of the project as they choose.</p>
+                    <a class="stretched-link" href="https://github.com/charlieSather/Sweepstakes"> </a>
+                </div>
+                <img class="card-img-bottom" src="staticFiles/Sweepstakes.png" alt="Card image cap">
+                
             </div>
-            <div class="col-sm text-center">
-                <span class="projectTitle">Generic List</span>
+            <div class="card border-dark rounded">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Generic List</h5>
+                    <p class="card-text" id="projectDescription">A project which focuses on implenting various design
+                        patterns such as factory and observer. The project also uses dependency injection to allow
+                        end-users to implement the functionality of the project as they choose.</p>
+                    <a class="stretched-link" href="https://github.com/charlieSather/GenericListProject"> </a>
+                </div>
+                <img class="card-img-bottom" src="staticFiles/GenericList.png" alt="Card image cap">
             </div>
-        </div>
-        <br>
-        <div class="row text-center align-items-center">
-            <div class="col-sm">
-                    <a href="https://github.com/charlieSather/Sweepstakes">
-                        <img src="staticFiles/Sweepstakes.png" alt="Sweepstakes" class="projectImg" class="img-responsive">
-                    </a>              
+
+            <div class="card border-dark rounded">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Battleship Game</h5>
+                    <p class="card-text" id="projectDescription">A project which focuses on implenting various design
+                        patterns such as factory and observer. The project also uses dependency injection to allow
+                        end-users to implement the functionality of the project as they choose.</p>
+                    <a class="stretched-link" href="https://github.com/charlieSather/Battleship"> </a>
+                </div>
+                <img class="card-img-bottom" src="staticFiles/Battleship.png" alt="Card image cap">
             </div>
-            <div class="col-sm">
-                    <a href="https://github.com/charlieSather/GenericListProject">
-                        <img src="staticFiles/GenericList.png" alt="GenericList" class="projectImg" class="img-responsive">
-                    </a> 
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm text-center">
-                <span class="projectTitle">Lemonade Stand Game</span>
-            </div>
-            <div class="col-sm text-center">
-                <span class="projectTitle">Battleship Game</span>
-            </div>
-        </div>
-        <br>
-        <div class="row text-center align-items-center">
-            <div class="col-sm text-center">
-                    <a href="https://github.com/charlieSather/LemonadeStand">
-                        <img src="staticFiles/LemonadeStand.png" alt="LemonadeStand" class="projectImg" class="img-responsive">
-                    </a>              
-            </div>
-            <div class="col-sm">
-                    <a href="https://github.com/charlieSather/Battleship">
-                        <img src="staticFiles/Battleship.png" alt="Battleship" class="projectImg" class="img-responsive">
-                    </a> 
+
+            <div class="card border-dark rounded">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Lemonade Stand Game</h5>
+                    <p class="card-text" id="projectDescription">A project which focuses on implenting various design
+                        patterns such as factory and observer. The project also uses dependency injection to allow
+                        end-users to implement the functionality of the project as they choose.</p>
+                    <a class="stretched-link" href="https://github.com/charlieSather/Sweepstakes"> </a>
+                </div>
+                <img class="card-img-bottom" src="staticFiles/Sweepstakes.png" alt="Card image cap">
             </div>
         </div>
     </div>
-
-
 </body>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-
 </html>
