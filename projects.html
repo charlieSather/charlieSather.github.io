@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="staticFiles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="body">
     <header class="navbar col-sm-12 bd-navbar" id="navBar">
         <div class="navbar-icon col-sm-4 justify-content-start">
-            <a href="https://www.devcodecamp.com" >
-                <img id="devcodeIcon" src="devcodecamp.jpg" class="img-responsive" alt="devcodecamp icon" height="44px" width="40px">
+            <a href="https://www.devcodecamp.com">
+                <img id="devcodeIcon" src="staticFiles/devcodecamp.jpg" class="img-responsive" alt="devcodecamp icon"
+                    height="44px" width="40px">
             </a>
         </div>
 
@@ -33,14 +34,68 @@
                     <li class="nav-item">
                         <a href="contact.html" class="navLink">Contact</a>
                     </li>
-                </ul> 
+                </ul>
             </span>
-            
         </div>
-
     </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm text-center">
+                <span class="projectTitle">Here are some of my recent projects.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid no-padding" id="projectContainer">
+        <div class="row">
+            <div class="col-sm text-center">
+                <span class="projectTitle">Sweepstakes</span>
+            </div>
+            <div class="col-sm text-center">
+                <span class="projectTitle">Generic List</span>
+            </div>
+        </div>
+        <br>
+        <div class="row text-center align-items-center">
+            <div class="col-sm">
+                    <a href="https://github.com/charlieSather/Sweepstakes">
+                        <img src="staticFiles/Sweepstakes.png" alt="Sweepstakes" class="projectImg" class="img-responsive">
+                    </a>              
+            </div>
+            <div class="col-sm">
+                    <a href="https://github.com/charlieSather/GenericListProject">
+                        <img src="staticFiles/GenericList.png" alt="GenericList" class="projectImg" class="img-responsive">
+                    </a> 
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm text-center">
+                <span class="projectTitle">Lemonade Stand Game</span>
+            </div>
+            <div class="col-sm text-center">
+                <span class="projectTitle">Battleship Game</span>
+            </div>
+        </div>
+        <br>
+        <div class="row text-center align-items-center">
+            <div class="col-sm text-center">
+                    <a href="https://github.com/charlieSather/LemonadeStand">
+                        <img src="staticFiles/LemonadeStand.png" alt="LemonadeStand" class="projectImg" class="img-responsive">
+                    </a>              
+            </div>
+            <div class="col-sm">
+                    <a href="https://github.com/charlieSather/Battleship">
+                        <img src="staticFiles/Battleship.png" alt="Battleship" class="projectImg" class="img-responsive">
+                    </a> 
+            </div>
+        </div>
+    </div>
+
 
 </body>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 
 </html>

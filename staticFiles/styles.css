@@ -1,4 +1,6 @@
-
+.body{
+    background-color:rgb(240,235,210);
+}
 .nav-item{
     font-size: 24px;
     padding: 5px;
@@ -12,27 +14,27 @@ a.navLink:visited{
     text-decoration: none;
 }
 a.navLink:hover, a.navLink:active{
-    color:limegreen;
+    color:rgb(240,235,210);
 }
 
 #devcodeIcon{
-    background-color: rgba(white,0.3);
     border-style: groove;
     border-radius: 20px;
+    border-width: 2px;
     border-color: black;
     margin-left: 10px;
 }
 
 #devcodeIcon:hover{
-    border-color:limegreen;
+    border-color:rgb(240,235,210);
 }
 
 #navBar{
     margin: 2px;
     padding: 5px;
-    background-color:silver;
+    background-color:rgb(0,71,27);
     border-style: groove;
-    border-color: black;
+    border-color: white;
     border-radius: 20px;
     line-height: auto;
 }
@@ -40,11 +42,11 @@ a.navLink:hover, a.navLink:active{
     color:white;
 }
 #titleId:hover{
-    color:limegreen;
+    color:rgb(240,235,210);
 }
 #carouselID{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 .carousel-inner img {
     width: 100%;
@@ -53,3 +55,31 @@ a.navLink:hover, a.navLink:active{
 #titleId{
     font-size:36px;
 }
+
+#projectContainer{
+    margin-top: 10px;
+    padding: 10px;
+}
+.projectTitle{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin:20px;
+}
+
+.projectImg{
+    border-style:groove;
+    border-color:rgb(0,71,27);
+    border-width:4px;
+    height:400px;
+    width:600px;
+    transition: height 1s, width 1s;
+    transition-timing-function: ease-in-out;
+}
+.projectImg:hover{
+    height:420px;
+    width:620px;
+}
+
+
+
