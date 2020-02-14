@@ -46,7 +46,7 @@ a.navLink:hover, a.navLink:active{
     color:rgb(240,235,210);
 }
 #carouselID{
-    margin-top: 2.5%;
+    margin-top: 1.5%;
     margin-bottom: 2.5%;
 }
 .carousel-inner img {
@@ -125,4 +125,8 @@ a.navLink:hover, a.navLink:active{
 .profilePicture{
 
 
+}
+#cSharpImg, #sqlImg, #netFrameworkImg{
+    width:10%;
+    height:10%;
 }
